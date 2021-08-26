@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<title>Proyecto Bella Manina</title>
+
+	<style>
+ 
+ 
+ #Porque{
+    background: url(assets/img/separador.png), linear-gradient(rgb(241, 143, 153), rgb(241, 153, 155), rgb(255,255,255));
+    background-repeat: repeat-x;
+    background-size: 50%;
+    margin-top: -40px;
+  }
+  	.card{
+      transition: all ease-out 0.3s; 
+	  border-radius: 20px;
+  	}
+    .card:hover{
+      transform:scale(1.05);
+ 	}
+
+	
+    #Ven{
+		background: url(assets/img/bgven.png);
+    	background-repeat: repeat;
+		background-size: cover;
+	}
+	.caja{
+		width: 250px;
+
+	}
+	.caja img{
+		box-shadow: 0 0 45px rgb(241, 143, 153);
+	}
+	.ven{
+      transition: all ease-out 0.3s; 
+	  border-radius: 20px;
+  	}
+    .ven:hover{
+      transform:scale(1.05);
+ 	}
+
+	     
+
+	</style>
+
+
+
+
+</head>
+
+
+<body>
+	<header>
+		
+<!--barra de navegación-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light px--5">
+		<div class="container-fluid">
+  			<img src="assets/img/logo.jpg" alt="" class="rounded-pill border border-1 border-light" style="width: 100px;">
+	  			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+	  			</button>
+	  		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+		  			<li class="nav-item">
+						<a class="nav-link active text-secondary" aria-current="page" href="#">Inicio</a>
+		  			</li>
+		  			<li class="nav-item">
+						<a class="nav-link text-secondary" href="#">Pack completo</a>
+		  			</li>
+		  			<li class="nav-item">
+						<a class="nav-link text-secondary" href="#">Contáctanos</a>
+					</li>
+	 				<li class="nav-item">
+		  				<a class="nav-link text-white bg-secondary rounded-pill border border-light" href="#"> Promoción de temporada</a>
+	  				</li>
+				</ul>
+			
+			</div>
+ 		</div>
+		</nav>
+
+
+<!--carrusel-->
+	   
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+				  	<img src="assets/img/salon3.jpg" class="d-block height-100 w-100" alt="...">
+				  </div>
+				<div class="carousel-item">
+				  	<img src="assets/img/salon2.jpg" class="d-block w-100 " alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="assets/img/salon.png" class="d-block height-120 w-100  " alt="...">
+			  </div>
+			</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			  </div>
+			
+		</div>
+	   </div>
+
+	</header>
+		
+	<!--tarjetas-->
+	<div id="Porque" >
+		<div class="container-sm p-5">
+		  <div class="row p-5">
+			<div class="col-12">
+				<h3 class="text-center p-md-5 h1 mt-md-5">Porque tú lo mereces</h3>
+			</div>
+			
+			<div class="row ">
+				<div class="col-sm-12 col-md-12 col-lg-4 mb-3"> 
+				  <div class="card mb-5">
+					<img src="assets/img/card2.jpg" class="card-img-top img-fluid w-100" alt="...">
+					  <div class="card-body">
+						<p class="card-text text-center">Toma 4 servicios y el quinto es Gratis!</p>
+					  </div>
+				  </div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+				  <div class="card mb-5">
+					<img src="assets/img/card.jpg" class="card-img-top img-fluid w-100 img-rounded" alt="...">
+					  <div class="card-body bg-light">
+						<p class="card-text text-center">En servicio sencillo, el retoque es Gratis!</p>
+					  </div>
+				  </div>       
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+				  <div class="card mb-5">
+					<img src="assets/img/card3.png" class="card-img-top img-fluid w-100" alt="..." >
+					  <div class="card-body">
+					   <p class="card-text text-center">Spa de manos al 50% en Martes</p>
+					   </div>
+				  </div>
+				</div>
+		
+			  </div>
+		
+	
+			</div>
+		</div>
+	</div>  
+
+	<!--Visitanos-->
+	<div class="row p-5">
+		<div class="col 12">
+		<h3 class="text-center text-danger">Visítanos</h3>
+		</div>
+	</div>
+	
+	
+	<!--Ven-->
+	<section id="Ven">
+		<div class="container" >
+			<div class="row p-5">
+				<div class="col">
+				<h3 class="text-white text-center h1">Ven a consentirte</h3>
+				</div>
+			</div>
+
+			<div class="row justify-content-around">
+				<div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+				<img src="assets/img/Ven1.png" class="ven w-100">
+					<div class="text-center ">
+						<span class="ven p-5 h5">Spa de Manos</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-12 col-lg-4 mb-3 caja">
+					<img src="assets/img/Ven2.png" class="ven h-76 w-100">
+					<div class="text-center ">
+						<span class="ven p-2 h5">Acrílico y Esculturales</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+					<img src="assets/img/Ven3.png" class="ven w-100 ">
+					<div class="text-center">
+						<span class="ven p-5 h5">Gelish</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="row p-5">
+				<div class="col text-center"> 
+				  <a href="" class="btn btn-light btn-lg rounded-pill p-3"> Checa nuestro catálogo de servicios</a>
+			  </div>
+			</div>
+		
+		</div>
+
+	</div>
+	</section>
+
+	<footer class="bg-secondary">
+		<div class="container">
+			<div class="row justify-content-center p-5">
+				<div class="col-8">
+					<h5 class="text-center text-white">Ante la contingencia cumplimos con todos los protocolos de sanitización y sana distancia necesarios para tu cuidado</h5>
+				</div>
+			</div>
+			<div class="row p-5">
+				<div class="col-4">
+					<img src="assets/img/logo.jpg" alt="" class="rounded-pill border border-3 border-secondary w-100"  >
+				</div>
+				<div class="col-4">
+					<p class="text-white text-center h4">Agenda tu cita</p>
+					<p class="text-white text-center h4">555555555</p>
+					<p class="text-white text-center h4">555555555</p>
+					<p class="text-white text-center h4"><img src="assets/img/whatsapp.png" alt="" width="50px">555555555</p>
+				</div>
+				<div class="col-4">
+					<h4 class="text-center  text-white">ENCUÉNTRANOS EN LAS REDES</h4>
+					<div class="row">
+						<div class="col-6">
+							<a href="#tu facebook" class="mx-auto d-block"><img src="assets/img/facebook.png" width="50px" alt=""></a>
+						</div>
+						<div class="col-6">
+							<a href="#tu instagram" class="mr-0 d-block"><img src="assets/img/instagram.png" width="50px" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</footer>
+</section>
+		
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+	
+</body>
+
+</html>
